@@ -6,17 +6,17 @@ const router = Router();
 
 router.get("/loggerTest", (req, res) => {
   if (env.NODE_ENV === "production") {
-    logger.fatal("Probando level fatal desde production"),
-      logger.error("Probando level error desde production"),
-      logger.warning("Probando level warning desde production"),
-      logger.info("Probando level info desde production");
+    logger.fatal("Level fatal"),
+      logger.error("Level error"),
+      logger.warning("Level warnin"),
+      logger.info("Level info");
   } else {
-    logger.fatal("Probando level fatal"),
-      logger.error("Probando level error desde development"),
-      logger.warning("Probando level warning desde development"),
-      logger.info("Probando level info desde development"),
-      logger.http("Probando level http desde development"),
-      logger.debug("Probando level debug desde development");
+    logger.fatal("Level fatal"),
+      logger.error("Level error"),
+      logger.warning("Level warning"),
+      logger.info("Level info"),
+      logger.http("Level http"),
+      logger.debug("Level debug");
   }
   res.send("Logger Test");
 });

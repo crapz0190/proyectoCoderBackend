@@ -62,7 +62,7 @@ app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
 app.use("/api/messages", messagesRouter);
 app.use("/api/sessions", sessionsRouter);
-app.use("/api/", loggerRouter);
+app.use("/", loggerRouter);
 
 app.use(errorMiddleware);
 
