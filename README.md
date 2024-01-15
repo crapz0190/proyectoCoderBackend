@@ -1,25 +1,25 @@
 PROYECTO BACKEND
 
----------------- Getting Started with NodeJS ------
+--------------- versión de nodejs a usar ---------------
+v20.11.0
 
-In the project directory, you can run:
+---------------- Inicializar NodeJS ------
 
-<<< npm start >>>
+<<< npm run start:dev >>> 
+          o
+<<< npm run start:prod >>>
 
 
 ---------------- La pagina inicia en LOGIN ---------------
 
-http://localhost:8080/login ---> <<< ingresar con email y contraseña, sino se posee cuenta resgistrada redirecciona a SIGNUP >>>
+http://localhost:8080/login
 
-http://localhost:8080/signup ---> <<< permite crear una cuenta de usuario >>>
-
+http://localhost:8080/signup
 
 
 ---------------- visualizacion de todos los productos ----------------
 
-ir a: http://localhost:8080/productos
-
----> permite hacer paginacion (pie de página)
+http://localhost:8080/productos
 
 
 ---------------- Navegacion por ruta ----------------
