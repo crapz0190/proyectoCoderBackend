@@ -10,6 +10,11 @@ v20.11.0
 <<< npm run start:prod >>>
 
 
+---------------- Endpoint para probar todos logs ---------------
+
+http://localhost:8080/loggerTest
+
+
 ---------------- La pagina inicia en LOGIN ---------------
 
 http://localhost:8080/login
